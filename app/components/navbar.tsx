@@ -25,13 +25,13 @@ export default function Navbar() {
                                 </Link>
                             </div>
                             <div className="hidden sm:ml-6 sm:flex sm:space-x-8 sm:items-center">
-                                <Link href="/" prefetch className={`${pathname === "/" ? 'border-[#ffbe0b] dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"}`}>
+                                <Link href="/" prefetch className={`${pathname === "/" ? 'border-[#ffbe0b] dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium capitalize' : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium capitalize"}`}>
                                     Home
                                 </Link>
-                                <Link href="/projects" prefetch className={`${pathname === "/projects" ? 'border-[#ffbe0b] dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"}`}>
+                                <Link href="/projects" prefetch className={`${pathname === "/projects" ? 'border-[#ffbe0b] dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium capitalize' : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium capitalize"}`}>
                                     Projects
                                 </Link>
-                                <Link href="/Contact" prefetch className={`${pathname === "/Contact" ? 'border-[#ffbe0b] dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium' : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"}`}>
+                                <Link href="/Contact" prefetch className={`${pathname === "/Contact" ? 'border-[#ffbe0b] dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium capitalize' : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium capitalize"}`}>
                                     Contact me
                                 </Link>
                                 <ThemeButton></ThemeButton>
@@ -54,7 +54,7 @@ export default function Navbar() {
                     <div className="pt-2 pb-3 space-y-1">
                         <Link href="/" prefetch className={`${pathname === "/" ? 'bg-yellow-50 border-[#ffbe0b] text-[#ffbe0b] block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white'}`}>Home</Link>
                         <Link href="/projects" prefetch className={`${pathname === "/projects" ? 'bg-yellow-50 border-[#ffbe0b] text-[#ffbe0b] block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white'}`}>Projects</Link>
-                        <Link href="/Contact" prefetch className={`${pathname === "/Contact" ? 'bg-yellow-50 border-[#ffbe0b] text-[#ffbe0b] block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700'}`}>Contact me</Link>
+                        <Link href="/Contact" prefetch className={`${pathname === "/Contact" ? 'bg-yellow-50 border-[#ffbe0b] text-[#ffbe0b] block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:bg-gray-800' : 'border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white'}`}>Contact me</Link>
                     </div>
                 </Disclosure.Panel>
                 </>

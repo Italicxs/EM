@@ -38,7 +38,7 @@ export default async function Projects(){
             </div>
             <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
             {data.map((project) => (
-                <article key={project._id}  className="overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 bg-white shadow-lg dark:bg-black dark:shadow-gray-700 shadow-teal-100">
+                <article key={project._id}  className="overflow-hidden dark:border-zinc-600 rounded-lg border border-gray-100 bg-white shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
                 <div className="h-56 w-full relative">
                 <Image fill src={project.imageUrl}  alt="Image of the project" priority={true}></Image>
                 </div>

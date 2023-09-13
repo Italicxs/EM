@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
       <div className="space-y-2 pt-5 pb-8 md:space-x-5">
-        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-13">
+        <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-13 capitalize">
           Home
         </h1>
       </div>
@@ -14,7 +14,7 @@ export default function Home() {
       <div className="items-center space-y-2 xl:grid xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
         <div className="flex flex-col items-center pt-8">
           <Image alt="" src={Me} className="h-48 w-48 rounded-full object-cover object-top"></Image>
-          <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">Emiliano Machado</h3>
+          <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight capitalize">Emiliano Machado</h3>
           <p className="text-gray-500 dark:text-gray-300 text-center">
             Freelancer, Developer, I create web experiences for end-users and sales
           </p>
@@ -74,11 +74,11 @@ export default function Home() {
         </div>
       </div>
       <div className="py-8 text-center mt-4 mb-4">
-        <h2 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200">SKILLS</h2>
+        <h2 className="text-2xl font-extrabold text-gray-800 dark:text-gray-200 uppercase">SKILLS</h2>
       </div>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white rounded-lg p-4 shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
           <svg
           viewBox="0 0 24 24"
           fill="currentColor"
@@ -93,7 +93,7 @@ export default function Home() {
           <p className="text-gray-600 dark:text-gray-300 mt-2">I design beautiful web interfaces with Figma</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white rounded-lg p-4 shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
           <svg
           viewBox="0 0 24 24"
           fill="currentColor"
@@ -104,12 +104,12 @@ export default function Home() {
           <path d="M9.293 9.293L5.586 13l3.707 3.707 1.414-1.414L8.414 13l2.293-2.293zm5.414 0l-1.414 1.414L15.586 13l-2.293 2.293 1.414 1.414L18.414 13z" />
         </svg>
 
-          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2">WEB DEVELOPMENT</h3>
+          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2 uppercase">WEB DEVELOPMENT</h3>
 
           <p className="text-gray-600 dark:text-gray-300 mt-2">I create beautiful iterfaces with simple HTML5, CSS3, JavaScript and also frameworks like ReactJS</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white rounded-lg p-4 shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
           <svg
             viewBox="0 0 448 512"
             fill="currentColor"
@@ -119,12 +119,12 @@ export default function Home() {
             <path d="M388.32 104.1a4.66 4.66 0 00-4.4-4c-2 0-37.23-.8-37.23-.8s-21.61-20.82-29.62-28.83V503.2L442.76 472s-54.04-365.5-54.44-367.9zm-99.67-33.63a116.67 116.67 0 00-7.21-17.61C271 32.85 255.42 22 237 22a15 15 0 00-4 .4c-.4-.8-1.2-1.2-1.6-2-8-8.77-18.4-12.77-30.82-12.4-24 .8-48 18-67.25 48.83-13.61 21.62-24 48.84-26.82 70.06-27.62 8.4-46.83 14.41-47.23 14.81-14 4.4-14.41 4.8-16 18-1.2 10-38 291.82-38 291.82L307.86 504V65.67a41.66 41.66 0 00-4.4.4s-5.6 1.6-14.81 4.4zm-55.24 17.22c-16 4.8-33.63 10.4-50.84 15.61 4.8-18.82 14.41-37.63 25.62-50 4.4-4.4 10.41-9.61 17.21-12.81 6.81 14.37 8.41 33.99 8.01 47.2zm-32.83-63.25A27.49 27.49 0 01215 28c-6.4 3.2-12.81 8.41-18.81 14.41-15.21 16.42-26.82 42-31.62 66.45-14.42 4.41-28.83 8.81-42 12.81 8.76-38.39 41.18-96.43 78.01-97.23zm-46.43 220.17c1.6 25.61 69.25 31.22 73.25 91.66 2.8 47.64-25.22 80.06-65.65 82.47-48.83 3.2-75.65-25.62-75.65-25.62l10.4-44s26.82 20.42 48.44 18.82c14-.8 19.22-12.41 18.81-20.42-2-33.62-57.24-31.62-60.84-86.86-3.2-46.44 27.22-93.27 94.47-97.68 26-1.6 39.23 4.81 39.23 4.81l-15.21 57.6s-17.21-8-37.63-6.4c-29.62 2.01-30.02 20.81-29.62 25.62zm95.27-161.73c0-12-1.6-29.22-7.21-43.63 18.42 3.6 27.22 24 31.23 36.43q-10.81 3-24.02 7.2z" />
           </svg>
 
-          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2">SALES</h3>
+          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2 uppercase">SALES</h3>
 
           <p className="text-gray-600 dark:text-gray-300 mt-2">I am passionate about salesmanship and growth, channeling my energy into effective strategies that drive positive results.</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white rounded-lg p-4 shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
           <svg
             viewBox="0 0 512 512"
             fill="currentColor"
@@ -137,12 +137,12 @@ export default function Home() {
             <path d="M496 176a64.07 64.07 0 00-64-64h-48V96a48.05 48.05 0 00-48-48H176a48.05 48.05 0 00-48 48v16H80a64.07 64.07 0 00-64 64v48h480zm-144-64H160V96a16 16 0 0116-16h160a16 16 0 0116 16zM336 264a24 24 0 01-24 24H200a24 24 0 01-24-24v-4a4 4 0 00-4-4H16v144a64 64 0 0064 64h352a64 64 0 0064-64V256H340a4 4 0 00-4 4z" />
           </svg>
 
-          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2">BUSSINESS MANAGMENT</h3>
+          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2 uppercase">BUSSINESS MANAGMENT</h3>
 
           <p className="text-gray-600 dark:text-gray-300 mt-2">Combining technical expertise and business vision, I generate effective strategies based on my knowledge of the market.</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white rounded-lg p-4 shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
           <svg
             viewBox="0 0 24 24"
             fill="currentColor"
@@ -151,12 +151,12 @@ export default function Home() {
             <path d="M12 12h7c-.53 4.11-3.28 7.78-7 8.92V12H5V6.3l7-3.11M12 1L3 5v6c0 5.55 3.84 10.73 9 12 5.16-1.27 9-6.45 9-12V5l-9-4z" />
           </svg>
 
-          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2">CYBERSECURITY</h3>
+          <h3 className="text-xl font-extrabold text-gray-800 dark:text-gray-200 mt-2 uppercase">CYBERSECURITY</h3>
 
           <p className="text-gray-600 dark:text-gray-300 mt-2">Complementing my background in Cybersecurity, I bring an advanced approach and techniques to safeguard data & systems.</p>
         </div>
 
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white rounded-lg p-4 shadow-lg dark:bg-black dark:shadow-gray-700 shadow-yellow-100">
           <svg fill="none" viewBox="0 0 24 24" className='w-16 h-16 text-[#ffbe0b]'>
             <path
               fill="currentColor"

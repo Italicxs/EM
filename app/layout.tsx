@@ -23,7 +23,7 @@ export default function RootLayout({
       <link rel="icon" href='./favicon.ico'/>
       
       </Head>
-    <body className={`${inter.className} bg-white text-black dark:bg-[+090908] dark:text-white h-full selection:bg-gray-50 dark:selection:bg-gray-800`}>
+    <body className={`${inter.className} bg-white text-black dark:bg-[#090908] dark:text-white h-full selection:bg-gray-50 dark:selection:bg-gray-800`}>
       <Provider>
       <Navbar></Navbar>
       <main className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
