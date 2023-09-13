@@ -3,8 +3,6 @@ import Me from '@/public/selfie.jpg'
 
 export default function Home() {
   
-  const cvLink = "/public/CV_Emiliano_Machado.pdf";
-  
   return (
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
       <div className="space-y-2 pt-5 pb-8 md:space-x-5">
@@ -22,7 +20,7 @@ export default function Home() {
           </p>
 
           <div className="flex space-x-5 pt-6">
-          <a href={cvLink} target="_blank" rel="noopener noreferrer">
+          <a href='https://drive.google.com/file/d/1pwXHpRZqS5xMJMDLixH_-DO0oB3tUZdJ/view?usp=sharing' target="_blank" rel="noopener noreferrer">
           <svg 
           viewBox="0 0 24 24"
           fill="currentColor"
