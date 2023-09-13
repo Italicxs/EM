@@ -4,8 +4,7 @@ import { Inter } from 'next/font/google'
 import Navbar from './components/navbar'
 import { Provider } from './components/Provider'
 import Head from 'next/head'
-import Script from 'next/script';
-
+  
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -32,7 +31,6 @@ export default function RootLayout({
       </main>
       </Provider>
       </body>
-      <Script src="../disableRightClick.js" />
   </html>
   )
 }

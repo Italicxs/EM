@@ -3,7 +3,7 @@ import Me from '@/public/selfie.jpg'
 
 export default function Home() {
   
-  const cvLink = "/public/CV _ Emiliano Machado.pdf";
+  const cvLink = "/public/CV_Emiliano_Machado.pdf";
   
   return (
     <div className="divide-y divide-gray-100 dark:divide-gray-700">
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
           <p>
-            Hi! I'm Emiliano Machado, a young man passionate about programming, data analysis, and sales.
+            Hi! I am Emiliano Machado, a young man passionate about programming, data analysis, and sales.
           </p>
           <p>
             From an early age, I immersed myself in the exciting world of technology and business. Every line of code I write reflects my constant search for technical perfection, while data analysis allows me to discover hidden patterns and make informed decisions.
