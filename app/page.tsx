@@ -20,13 +20,23 @@ export default function Home() {
           </p>
 
           <div className="flex space-x-5 pt-6">
-          <a href='https://drive.google.com/file/d/1pwXHpRZqS5xMJMDLixH_-DO0oB3tUZdJ/view?usp=sharing' target="_blank" rel="noopener noreferrer">
-          <svg 
-          viewBox="0 0 24 24"
+          <a href='https://drive.google.com/file/d/1RJv_-11c1LadzjsV_Lp_cxHWKsT9tAv7/view?usp=drive_link' target="_blank" rel="noopener noreferrer" title="CV EN">
+          <svg
           fill="currentColor"
+          viewBox="0 0 16 16"
           className='w-8 h-8 text-[#ffbe0b] hover:text-[#ffbe0b]'
           >
-      <path d="M18 2h-6v7L9.5 7.5 7 9V2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4a2 2 0 00-2-2m-.32 16.41c-.11.09-1.21.84-1.63 1.09-.42.29-2.05 1.22-1.79-.58.63-3.64 1.85-5.8.39-4.86-.38.23-.6.37-.74.44-.13.11-.12.1-.23-.09s-.15-.18-.01-.28c0 0 2.23-1.79 3.05-1.85.78-.07.59.89.52 1.33-.46 1.85-1.3 4.54-1.17 4.93.11.39.93-.23 1.37-.54 0 0 .06-.07.17.05.11.17.22.25.07.36m-.71-7.35c-.57 0-1.03-.46-1.03-1.03 0-.57.46-1.03 1.03-1.03.57 0 1.03.46 1.03 1.03 0 .57-.46 1.03-1.03 1.03z" />
+          <path d="M12 0H4a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V2a2 2 0 00-2-2zm-1 7a3 3 0 11-6 0 3 3 0 016 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 01-1 1H4a1 1 0 01-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
+        </svg>
+          </a>
+          <a href='https://drive.google.com/file/d/1bg9k_lWffrPsFn14Q5BGrntto3XLXw9C/view?usp=drive_link' target="_blank" rel="noopener noreferrer" title="CV ES">
+          <svg
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            className='w-8 h-8 text-[#ffbe0b] hover:text-[#ffbe0b]'
+              >
+            <path d="M12 1a1 1 0 011 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 011-1h8zM4 0a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V2a2 2 0 00-2-2H4z" />
+            <path d="M8 10a3 3 0 100-6 3 3 0 000 6z" />
           </svg>
           </a>
           <a href="https://www.linkedin.com/in/emiliano-machado-9b3aaa203" target="_blank">
@@ -47,24 +57,16 @@ export default function Home() {
             <path d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 01194 256h648.8a7.2 7.2 0 014.4 12.9z" />
           </svg>
           </a>
-          <svg
-        viewBox="0 0 512 512"
-        fill="currentColor"
-        className='w-8 h-8 text-[#ffbe0b] hover:text-[#ffbe0b]'
-        >   
-        <path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" />
-        <path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" />
-    </svg>
         </div>
 
 
         </div>
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
           <p>
-            Hi! I am Emiliano Machado, a young man passionate about programming, data analysis, and sales.
+            Hi! I am Emiliano Machado, a young man passionate about programming, web development, and sales.
           </p>
           <p>
-            From an early age, I immersed myself in the exciting world of technology and business. Every line of code I write reflects my constant search for technical perfection, while data analysis allows me to discover hidden patterns and make informed decisions.
+            From an early age, I immersed myself in the exciting world of technology and business. Every line of code I write reflects my constant search for technical perfection. This combination of technical prowess has been instrumental in my journey.
           </p>
           <p>
             My passion for sales and business drives me to create effective strategies and cultivate strong client relationships. In short, I constantly seek to grow and excel in these areas that I am passionate about.
