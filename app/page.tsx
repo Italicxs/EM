@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import Me from '@/public/selfie.jpg'
+import Me from '@/public/selfie2.jpg'
 
 export default function Home() {
   
